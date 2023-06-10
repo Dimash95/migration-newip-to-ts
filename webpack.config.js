@@ -10,8 +10,12 @@ const baseConfig = {
     module: {
         rules: [
             {
-                test: [/\.css$/i, /\.ts$/i],
-                use: ['style-loader', 'css-loader', 'ts-loader'],
+                test: [/\.ts$/i],
+                use: ['ts-loader'],
+            },
+            {
+                test: [/\.css$/i],
+                use: ['style-loader', 'css-loader'],
             },
         ],
     },
