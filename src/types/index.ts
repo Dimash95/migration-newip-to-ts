@@ -32,3 +32,7 @@ export interface IArticles {
   publishedAt: string;
   content: string;
 }
+
+export interface IOptions {
+  [source: string]: string;
+}
