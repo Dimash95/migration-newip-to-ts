@@ -3,7 +3,6 @@ import { ISourceItem } from '../../../types/index';
 
 class Sources {
     public draw(data: readonly ISourceItem[]) {
-        console.log(data);
         const fragment = document.createDocumentFragment();
         const sourceItemTemp = document.querySelector('#sourceItemTemp') as HTMLTemplateElement;
 
