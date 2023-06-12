@@ -4,6 +4,7 @@ Migration from js to ts.
 Stack: Webpack, Typescript, Eslint. 
 
 Deploy: https://dimash95.github.io/migration-newip-to-ts/
+
 Pull request: https://github.com/Dimash95/migration-newip-to-ts/pull/1
 
 Screenshot:
